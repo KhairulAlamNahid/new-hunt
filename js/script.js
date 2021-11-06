@@ -139,7 +139,7 @@ $(function () {
         speed: 1000,
         slidesToShow: 1,
         slidesToScroll: 1,
-        vertical:true,
+        fade: true,
         asNavFor: '.testi-slider',
         // responsive: [{
         //         breakpoint: 1400,
