@@ -42,7 +42,6 @@ $(function () {
         }
     });
 
-
     // banner slider js
     $('#banner').slick({
         dots: true,
@@ -56,6 +55,7 @@ $(function () {
         prevArrow: '<i class="fa fa-angle-left icon left"></i>',
         nextArrow: '<i class="fa fa-angle-right icon right"></i>',
     });
+
     // portfolio slider js
     $('.port-slider').slick({
         dots: false,
@@ -66,11 +66,24 @@ $(function () {
         slidesToShow: 4,
         slidesToScroll: 1,
         responsive: [{
-            breakpoint: 576,
-            settings: {
-                slidesToShow: 1,
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 3,
+                }
             }
-        }]
+        ]
     });
 
     // counter up js
@@ -87,7 +100,7 @@ $(function () {
         dots: false,
         arrows: true,
         infinite: true,
-        autoplay: true,
+        autoplay: false,
         speed: 1000,
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -98,21 +111,23 @@ $(function () {
         prevArrow: '<i class="fa fa-angle-up icons left"></i>',
         nextArrow: '<i class="fa fa-angle-down icons right"></i>',
         responsive: [{
-            breakpoint: 576,
+            breakpoint: 992,
             settings: {
                 slidesToShow: 1,
                 vertical: false,
                 verticalSwiping: false,
             }
         }]
+
     });
+
 
     // testimonial image slider js
     $('.testi-slider').slick({
         dots: false,
         arrows: true,
         infinite: true,
-        autoplay: true,
+        autoplay: false,
         speed: 1000,
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -124,11 +139,18 @@ $(function () {
         prevArrow: '<i class="fa fa-angle-up icons left"></i>',
         nextArrow: '<i class="fa fa-angle-down icons right"></i>',
         responsive: [{
-            breakpoint: 576,
-            settings: {
-                slidesToShow: 1,
-            }
-        }]
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+        ]
     });
     // testimonial details slider js
     $('.testi-details-slider').slick({
@@ -140,21 +162,9 @@ $(function () {
         slidesToShow: 1,
         slidesToScroll: 1,
         fade: true,
+        centerMode: true,
         asNavFor: '.testi-slider',
-        // responsive: [{
-        //         breakpoint: 1400,
-        //         settings: {
-        //             slidesToShow: 1,
-        //         }
-        //     },
-        // {
-        //     breakpoint: 480,
-        //     settings: {
-        //         slidesToShow: 1,
-        //         slidesToScroll: 1
-        //     }
-        // }
-        // ]
+        centerPadding: 0,
     });
 
     // sponsor slider js
@@ -167,15 +177,31 @@ $(function () {
         slidesToShow: 5,
         slidesToScroll: 1,
         centerMode: true,
-        centerPadding: '0',
-        asNavFor: '.testi-details-slider',
-        prevArrow: '<i class="fa fa-angle-up icons left"></i>',
-        nextArrow: '<i class="fa fa-angle-down icons right"></i>',
+        centerPadding: 0,
         responsive: [{
-            breakpoint: 576,
-            settings: {
-                slidesToShow: 1,
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                }
             }
-        }]
+        ]
     });
 })

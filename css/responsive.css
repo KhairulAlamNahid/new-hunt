@@ -1,3 +1,58 @@
+@media (min-width:1200px) and (max-width:1399px) {
+    /* banner past css */
+    .banner-item .overlay {
+        padding: 246px 0 130px 0;
+    }
+    .banner-item {
+        clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+    }
+    /* about part css */
+    #about .image {
+        width: 310px;
+        height: 310px;
+    }
+    #about .img {
+        width: 275px;
+        height: 275px;
+        margin: 16px;
+    }
+    /* portfolio part css */
+    .port-bg {
+        clip-path: polygon(0 6%, 100% 0, 100% 94%, 0% 100%);
+    }
+    .port-bg .overlay {
+        padding: 60px 0 80px;
+    }
+    /* service part css */
+    #service .text {
+        padding: 40px 30px;
+    }
+    #service .service-slider::before {
+        height: 776px;
+    }
+    /* testimonial part css */
+    .testi-bg .testi-details-slider {
+        padding: 30px 30px;
+    }
+    .testi-bg {
+        clip-path: polygon(0 6%, 100% 0, 100% 94%, 0% 100%);
+    }
+    .testi-bg .overlay {
+        padding: 60px 0 40px;
+    }
+    /* counter part css */
+    .counter-bg .counter-item {
+        margin: 12px 0;
+    }
+    .counter-bg .overlay {
+        padding: 15px 0;
+    }
+    /* footer part css */
+    #footer p {
+        padding: 15px 0px 0;
+    }
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
     /* banner past css */
     .banner-item .overlay {
@@ -5,6 +60,63 @@
     }
     .banner-item {
         clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+    }
+    /* about part css */
+    #about .abt-item {
+        padding: 30px 30px 30px 35px;
+    }
+    #about .abt-item p {
+        padding: 0;
+    }
+    #about .image {
+        width: 275px;
+        height: 275px;
+    }
+    #about .img {
+        width: 245px;
+        height: 245px;
+        margin: 14px;
+    }
+    #about .abt-item .trd-icon {
+        left: -44px;
+    }
+    #about .abt-item .snd-icon {
+        right: -44px;
+    }
+    /* portfolio part css */
+    .port-bg {
+        clip-path: polygon(0 6%, 100% 0, 100% 94%, 0% 100%);
+    }
+    .port-bg .overlay {
+        padding: 60px 0 70px;
+    }
+    /* service part css */
+    #service .text {
+        padding: 20px 30px;
+    }
+    #service .service-slider::before {
+        height: 732px;
+    }
+    /* testimonial part css */
+    .testi-bg .testi-details-slider {
+        padding: 30px 30px;
+    }
+    .testi-bg {
+        clip-path: polygon(0 6%, 100% 0, 100% 94%, 0% 100%);
+    }
+    .testi-bg .overlay {
+        padding: 60px 0 40px;
+    }
+    /* counter part css */
+    .counter-bg .counter-item {
+        margin: 12px 0;
+    }
+    .counter-bg .overlay {
+        padding: 15px 0;
+    }
+    /* footer part css */
+    #footer p {
+        padding: 15px 0px 0;
     }
 }
 
@@ -47,6 +159,133 @@
         display: block !important;
         bottom: 40px;
     }
+    /* about part css */
+    #about .abt-item i {
+        display: none;
+    }
+    #about .abt-item {
+        margin-bottom: 24px;
+        text-align: center !important;
+        padding: 35px 80px 35px;
+    }
+    #about .abt-item::before {
+        display: none;
+    }
+    #about .abt-item p {
+        padding: 0;
+    }
+    #about .image {
+        width: 350px;
+        height: 350px;
+        margin: 0 auto 24px;
+    }
+    #about .img {
+        width: 315px;
+        height: 315px;
+        margin: 16px;
+    }
+    /* portfolio part css */
+    #portfolio {
+        padding-top: 30px;
+    }
+    .port-bg {
+        clip-path: none;
+    }
+    .port-bg .overlay {
+        padding: 30px 0;
+    }
+    /* service part css */
+    #service .icons {
+        display: none !important;
+    }
+    #service .heading {
+        padding-bottom: 30px;
+    }
+    #service .service-slider::before {
+        display: none;
+    }
+    #service .title h3 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    #service .service-slider {
+        padding: 0 0 50px !important;
+    }
+    #service .text {
+        padding: 46px 37px;
+        text-align: center !important;
+        margin-top: 27px;
+    }
+    #service .service-slider {
+        padding: 50px 0;
+    }
+    #service .text::before {
+        display: none;
+    }
+    /* feedback part css */
+    .testi-bg {
+        clip-path: none;
+    }
+    .testi-bg .overlay {
+        padding: 0px 0 30px;
+    }
+    .testi-bg .testi-slider::before {
+        display: none;
+    }
+    .testi-bg .testi-details-slider::before {
+        display: none;
+    }
+    .testi-bg .testi-details-slider {
+        padding: 30px 25px;
+    }
+    .testi-bg .left {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%) rotate(-90deg);
+        line-height: 35px;
+    }
+    .testi-bg .right {
+        position: absolute;
+        top: 50%;
+        left: 94%;
+        transform: translateY(-50%) rotate(-90deg);
+    }
+    .testi-bg .testi-slider {
+        padding: 20px 0;
+    }
+    /* pricing part css */
+    #pricing .price-item {
+        margin-bottom: 24px;
+    }
+    /* counter part css */
+    #counter {
+        padding-top: 30px;
+    }
+    .counter-bg .counter-item {
+        margin: 12px 0;
+    }
+    /* team part css */
+    #team .team-item {
+        margin-bottom: 24px;
+    }
+    /* sponsor part css */
+    #sponsor {
+        padding-top: 20px;
+    }
+    /* footer part css */
+    #footer .item {
+        margin: 12px 0;
+    }
+    #footer .item::after {
+        display: none;
+    }
+    #footer .social {
+        padding-top: 30px;
+    }
+    #footer p {
+        padding: 15px 40px 0;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -87,6 +326,133 @@
     #banner ul {
         display: block !important;
         bottom: 30px;
+    }
+    /* about part css */
+    #about .abt-item i {
+        display: none;
+    }
+    #about .abt-item {
+        margin-bottom: 24px;
+        text-align: center !important;
+        padding: 35px 30px 35px;
+    }
+    #about .abt-item::before {
+        display: none;
+    }
+    #about .abt-item p {
+        padding: 0;
+    }
+    #about .image {
+        width: 300px;
+        height: 300px;
+        margin: 0 auto 24px;
+    }
+    #about .img {
+        width: 265px;
+        height: 265px;
+        margin: 17px;
+    }
+    /* portfolio part css */
+    #portfolio {
+        padding-top: 30px;
+    }
+    .port-bg {
+        clip-path: none;
+    }
+    .port-bg .overlay {
+        padding: 30px 0;
+    }
+    /* service part css */
+    #service .icons {
+        display: none !important;
+    }
+    #service .heading {
+        padding-bottom: 30px;
+    }
+    #service .service-slider::before {
+        display: none;
+    }
+    #service .title h3 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    #service .service-slider {
+        padding: 0 0 50px !important;
+    }
+    #service .text {
+        padding: 27px 15px;
+        text-align: center !important;
+        margin-top: 27px;
+    }
+    #service .service-slider {
+        padding: 50px 0;
+    }
+    #service .text::before {
+        display: none;
+    }
+    /* feedback part css */
+    .testi-bg {
+        clip-path: none;
+    }
+    .testi-bg .overlay {
+        padding: 0px 0 30px;
+    }
+    .testi-bg .testi-slider::before {
+        display: none;
+    }
+    .testi-bg .testi-details-slider::before {
+        display: none;
+    }
+    .testi-bg .testi-details-slider {
+        padding: 30px 25px;
+    }
+    .testi-bg .left {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%) rotate(-90deg);
+        line-height: 35px;
+    }
+    .testi-bg .right {
+        position: absolute;
+        top: 50%;
+        left: 92%;
+        transform: translateY(-50%) rotate(-90deg);
+    }
+    .testi-bg .testi-slider {
+        padding: 20px 0;
+    }
+    /* pricing part css */
+    #pricing .price-item {
+        margin-bottom: 24px;
+    }
+    /* counter part css */
+    #counter {
+        padding-top: 30px;
+    }
+    .counter-bg .counter-item {
+        margin: 12px 0;
+    }
+    /* team part css */
+    #team .team-item {
+        margin-bottom: 24px;
+    }
+    /* sponsor part css */
+    #sponsor {
+        padding-top: 20px;
+    }
+    /* footer part css */
+    #footer .item {
+        margin: 12px 0;
+    }
+    #footer .item::after {
+        display: none;
+    }
+    #footer .social {
+        padding-top: 30px;
+    }
+    #footer p {
+        padding: 15px 115px 0;
     }
 }
 
