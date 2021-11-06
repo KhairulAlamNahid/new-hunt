@@ -1,0 +1,294 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* banner past css */
+    .banner-item .overlay {
+        padding: 246px 0 130px 0;
+    }
+    .banner-item {
+        clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* navbar part css */
+    nav {
+        border-bottom: none;
+    }
+    nav ul {
+        background: #111;
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 20px;
+        width: 100%;
+    }
+    nav ul li {
+        padding: 13px 0;
+    }
+    nav ul a {
+        display: block;
+    }
+    nav ul a::before {
+        display: none;
+    }
+    /* banner past css */
+    .banner-item {
+        clip-path: none;
+    }
+    .banner-item .overlay {
+        padding: 149px 0 100px 0;
+    }
+    #banner .icon {
+        display: none !important;
+    }
+    .banner-item a {
+        width: 120px;
+        padding: 12px 0;
+    }
+    #banner ul {
+        display: block !important;
+        bottom: 40px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* navbar part css */
+    nav {
+        border-bottom: none;
+    }
+    nav ul {
+        background: #111;
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 20px;
+        width: 100%;
+    }
+    nav ul li {
+        padding: 13px 0;
+    }
+    nav ul a {
+        display: block;
+    }
+    nav ul a::before {
+        display: none;
+    }
+    /* banner past css */
+    .banner-item {
+        clip-path: none;
+    }
+    .banner-item .overlay {
+        padding: 149px 0 85px 0;
+    }
+    #banner .icon {
+        display: none !important;
+    }
+    .banner-item a {
+        width: 120px;
+        padding: 12px 0;
+    }
+    #banner ul {
+        display: block !important;
+        bottom: 30px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    /* navbar part css */
+    nav {
+        border-bottom: none;
+    }
+    nav ul {
+        background: #111;
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 20px;
+        width: 100%;
+    }
+    nav ul li {
+        padding: 13px 0;
+    }
+    nav ul a {
+        display: block;
+    }
+    nav ul a::before {
+        display: none;
+    }
+    /* banner past css */
+    .banner-item {
+        clip-path: none;
+    }
+    .banner-item .overlay {
+        padding: 149px 0 85px 0;
+    }
+    #banner .icon {
+        display: none !important;
+    }
+    .banner-item a {
+        width: 120px;
+        padding: 12px 0;
+    }
+    #banner ul {
+        display: block !important;
+        bottom: 30px;
+    }
+    /* about part css */
+    #about .abt-item i {
+        display: none;
+    }
+    #about .abt-item {
+        margin-bottom: 24px;
+        text-align: center !important;
+        padding: 24px 10px 24px;
+    }
+    #about .abt-item::before {
+        display: none;
+    }
+    #about .abt-item p {
+        padding: 0;
+    }
+    #about .image {
+        width: 293px;
+        height: 293px;
+        margin: 0 auto 24px;
+    }
+    #about .img {
+        width: 265px;
+        height: 265px;
+        margin: 13px;
+    }
+    /* portfolio part css */
+    #portfolio {
+        padding-top: 30px;
+    }
+    .port-bg {
+        clip-path: none;
+    }
+    .port-bg .overlay {
+        padding: 30px 0;
+    }
+    /* service part css */
+    #service .icons {
+        display: none !important;
+    }
+    #service .heading {
+        padding-bottom: 30px;
+    }
+    #service .service-slider::before {
+        display: none;
+    }
+    #service .title h3 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    #service .service-slider {
+        padding: 0 0 50px !important;
+    }
+    #service .text {
+        padding: 27px 15px;
+        text-align: center !important;
+        margin-top: 27px;
+    }
+    #service .service-slider {
+        padding: 50px 0;
+    }
+    #service .text::before {
+        display: none;
+    }
+    /* feedback part css */
+    .testi-bg {
+        clip-path: none;
+    }
+    .testi-bg .overlay {
+        padding: 0px 0 30px;
+    }
+    .testi-bg .testi-slider::before {
+        display: none;
+    }
+    .testi-bg .testi-details-slider::before {
+        display: none;
+    }
+    .testi-bg .testi-details-slider {
+        padding: 30px 15px;
+    }
+    .testi-bg .left {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%) rotate(-90deg);
+        line-height: 35px;
+    }
+    .testi-bg .right {
+        position: absolute;
+        top: 50%;
+        left: 86%;
+        transform: translateY(-50%) rotate(-90deg);
+    }
+    .testi-bg .testi-slider {
+        padding: 20px 0;
+    }
+    /* pricing part css */
+    #pricing .price-item {
+        margin-bottom: 24px;
+    }
+    /* counter part css */
+    #counter {
+        padding-top: 30px;
+    }
+    .counter-bg .counter-item {
+        margin: 12px 0;
+    }
+    /* team part css */
+    #team .team-item {
+        margin-bottom: 24px;
+    }
+    /* sponsor part css */
+    #sponsor {
+        padding-top: 20px;
+    }
+    /* footer part css */
+    #footer .item {
+        margin: 12px 0;
+    }
+    #footer .item::after {
+        display: none;
+    }
+    #footer .social {
+        padding-top: 30px;
+    }
+}
+
+@media (width: 575px) {
+    /* heading part css */
+    .heading p {
+        padding: 18px 18px 0;
+    }
+    /* about part css */
+    #about .abt-item {
+        padding: 30px 50px 30px;
+    }
+    /* service part css */
+    #service .text {
+        padding: 30px 22px;
+    }
+    /* testimonial part css */
+    .testi-bg .right {
+        left: 92%;
+    }
+}
+
+@media (width: 480px) {
+    /* heading part css */
+    .heading p {
+        padding: 18px 18px 0;
+    }
+    /* about part css */
+    #about .abt-item {
+        padding: 30px 60px 30px;
+    }
+    /* service part css */
+    #service .text {
+        padding: 30px 22px;
+    }
+    /* testimonial part css */
+    .testi-bg .right {
+        left: 91%;
+    }
+}
