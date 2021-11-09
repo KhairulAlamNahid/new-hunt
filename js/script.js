@@ -1,5 +1,10 @@
 $(function () {
 
+    // preloader js
+    $(window).on('load', function () {
+        $('.prealoder').delay(1000).fadeOut(500);
+    })
+
     // fixed menu
     $(window).scroll(function () {
         let scrolling = $(this).scrollTop();
@@ -41,6 +46,26 @@ $(function () {
             }
         }
     });
+
+    // back to top button js
+    var btn = $('#button');
+
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 300) {
+            btn.addClass('show');
+        } else {
+            btn.removeClass('show');
+        }
+    });
+
+    btn.on('click', function (e) {
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: 0
+        });
+    });
+
+
 
     // banner slider js
     $('#banner').slick({

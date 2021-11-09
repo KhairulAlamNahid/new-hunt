@@ -57,6 +57,101 @@ body {
     padding-top: 18px;
 }
 
+/* prealoder part */
+
+.prealoder {
+    width: 100%;
+    height: 100%;
+    background-color: #111;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+}
+
+.loadingio-spinner-pulse-mv21hqo1n8r {
+    position: absolute;
+    top: 38%;
+    left: 49%;
+}
+
+@keyframes ldio-6kruycph9y3-1 {
+    0% {
+        top: 98.28px;
+        height: 37.44px
+    }
+    50% {
+        top: 105.3px;
+        height: 23.4px
+    }
+    100% {
+        top: 105.3px;
+        height: 23.4px
+    }
+}
+
+@keyframes ldio-6kruycph9y3-2 {
+    0% {
+        top: 100.035px;
+        height: 33.93px
+    }
+    50% {
+        top: 105.3px;
+        height: 23.4px
+    }
+    100% {
+        top: 105.3px;
+        height: 23.4px
+    }
+}
+
+@keyframes ldio-6kruycph9y3-3 {
+    0% {
+        top: 101.78999999999999px;
+        height: 30.419999999999998px
+    }
+    50% {
+        top: 105.3px;
+        height: 23.4px
+    }
+    100% {
+        top: 105.3px;
+        height: 23.4px
+    }
+}
+
+.ldio-6kruycph9y3 div {
+    position: absolute;
+    width: 7.02px
+}
+
+.ldio-6kruycph9y3 div:nth-child(1) {
+    left: 0;
+    background: #fff;
+    animation: ldio-6kruycph9y3-1 0.9900990099009901s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+    animation-delay: -0.19801980198019803s
+}
+
+.ldio-6kruycph9y3 div:nth-child(2) {
+    left: 15px;
+    background: #fff;
+    animation: ldio-6kruycph9y3-2 0.9900990099009901s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+    animation-delay: -0.09900990099009901s
+}
+
+.ldio-6kruycph9y3 div:nth-child(3) {
+    left: 30px;
+    background: #fff;
+    animation: ldio-6kruycph9y3-3 0.9900990099009901s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+    animation-delay: undefineds
+}
+
+.loadingio-spinner-pulse-mv21hqo1n8r {
+    width: 134px;
+    height: 0;
+    background-color: red;
+}
+
 /* navbar part start */
 
 nav {
@@ -1134,3 +1229,37 @@ nav ul li a.active::before {
 }
 
 /* footer bottom part end */
+
+/* back top top button */
+
+#button {
+    background-color: #222;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+    cursor: pointer;
+    filter: drop-shadow(0 0 3px rgba(0, 0, 0, .2));
+}
+
+#button::after {
+    content: "\f106";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 40px;
+    color: #fff;
+}
+
+#button.show {
+    opacity: 1;
+    visibility: visible;
+}
