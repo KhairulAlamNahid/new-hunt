@@ -1,7 +1,7 @@
 $(function () {
     // preloader js
     $(window).on('load', function () {
-        $('.prealoder').delay(1000).fadeOut(1000);
+        $('.prealoder').delay(1000).fadeOut(600);
     })
 
     // fixed menu
